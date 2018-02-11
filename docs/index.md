@@ -5,7 +5,7 @@ layout: home
 
 ## News
 
-* [February 11th: Launched econumi site]
+* February 11th: Launched econumi site. Whitepaper in progress.
 
 ## About econumi
 
