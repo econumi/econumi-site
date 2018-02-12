@@ -1,4 +1,5 @@
 # Site settings
+theme: minima
 title: econumi
 email: info@econumi.org
 description: > # this means to ignore newlines until "baseurl:"
