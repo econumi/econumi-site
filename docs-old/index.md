@@ -3,14 +3,6 @@ title: econumi
 layout: home
 ---
 
-## News
-
-* February 11th: Launched econumi site. Whitepaper in progress.
-
-## About econumi
-
-
-
 ## Features and roadmap
 
 * Fully built server node for econumi.
