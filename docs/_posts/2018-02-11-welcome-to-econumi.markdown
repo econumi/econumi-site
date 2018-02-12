@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to econumi"
+title:  "Welcome to econumi, whitepaper to be published soon"
 date:   2018-02-11 15:26:50
 categories: jekyll update
 ---
