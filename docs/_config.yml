@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://econumi.org" # the base hostname & protocol for your site
 twitter_username: econumi
 github_username:  econumi
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
