@@ -1,0 +1,100 @@
+hash: bb529a43e94c5737d0b55bbcdb7bad0e65b9af283c27266dd4e90e8b5f5fec06
+updated: 2018-03-11T22:24:18.435041-07:00
+imports:
+- name: github.com/boltdb/bolt
+  version: fd01fc79c553a8e99d512a07e8e0c63d4a3ccfc5
+  repo: git@github.com:boltdb/bolt.git
+- name: github.com/docker/distribution
+  version: 5cb406d511b7b9163bff9b6439072e4892e5ae3b
+  subpackages:
+  - digestset
+  - reference
+- name: github.com/docker/docker
+  version: a2445fee0cec27cb350c3b80169ec33716a1388e
+  subpackages:
+  - api
+  - api/types
+  - api/types/blkiodev
+  - api/types/container
+  - api/types/events
+  - api/types/filters
+  - api/types/image
+  - api/types/mount
+  - api/types/network
+  - api/types/registry
+  - api/types/strslice
+  - api/types/swarm
+  - api/types/swarm/runtime
+  - api/types/time
+  - api/types/versions
+  - api/types/volume
+  - client
+  - pkg/stringid
+- name: github.com/docker/go-connections
+  version: 3ede32e2033de7505e6500d6c868c2b9ed9f169d
+  subpackages:
+  - nat
+  - sockets
+  - tlsconfig
+- name: github.com/docker/go-units
+  version: d59758554a3d3911fa25c0269de1ebe2f1912c39
+- name: github.com/gogo/protobuf
+  version: 26de2f9a7d3b1826f275e7a97c8cad5080589426
+  subpackages:
+  - proto
+- name: github.com/google/subcommands
+  version: a3682377147edf596d303faabd89f81977b3f678
+  repo: git@github.com:google/subcommands.git
+- name: github.com/grpc/grpc-go
+  version: 90dca43332f6cc944c37e16f32a82c41639e7705
+  repo: git@github.com:grpc/grpc-go.git
+- name: github.com/Microsoft/go-winio
+  version: 7da180ee92d8bd8bb8c37fc560e673e6557c392f
+- name: github.com/moby/moby
+  version: a2445fee0cec27cb350c3b80169ec33716a1388e
+  subpackages:
+  - client
+- name: github.com/opencontainers/go-digest
+  version: 279bed98673dd5bef374d3b6e4b09e2af76183bf
+- name: github.com/opencontainers/image-spec
+  version: 577479e4dc273d3779f00c223c7e0dba4cd6b8b0
+  subpackages:
+  - specs-go
+  - specs-go/v1
+- name: github.com/pkg/errors
+  version: e881fd58d78e04cf6d0de1217f8707c8cc2249bc
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: golang.org/x/crypto
+  version: 3d37316aaa6bd9929127ac9a527abf408178ea7b
+  subpackages:
+  - ripemd160
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+  - context/ctxhttp
+  - proxy
+- name: golang.org/x/sys
+  version: af9a21289d0040306ecc55fa668c95246f1f8425
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: e19ae1496984b1c655b8044a65c0300a3c878dd3
+  subpackages:
+  - transform
+  - width
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: b89eecf5ca5db6d3ba60b237ffe3df7bafb7662f
+  subpackages:
+  - assert

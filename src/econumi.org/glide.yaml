@@ -1,0 +1,11 @@
+package: econumi.org
+import:
+- package: github.com/boltdb/bolt
+  repo: git@github.com:boltdb/bolt.git
+- package: github.com/grpc/grpc-go
+  repo: git@github.com:grpc/grpc-go.git
+- package: golang.org/x/crypto/ripemd160
+- package: golang.org/x/text/width
+- package: github.com/moby/moby/client
+- package: github.com/google/subcommands
+  repo: git@github.com:google/subcommands.git
